@@ -40,11 +40,11 @@ sealed class Models {
 
     object Bee : Models() {
         override val degreesPerSecond: Float
-            get() = 10f
+            get() = 20f
         override val radius: Float
-            get() = 2f
+            get() = 0.3f
         override val height: Float
-            get() = 1.0f
+            get() = 0.1f
         override val rotationDegrees: Float
             get() = 180f
     }

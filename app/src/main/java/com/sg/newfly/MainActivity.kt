@@ -45,11 +45,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun eliminateDot() {
-        arFragment.arSceneView.planeRenderer.isVisible = false
-        arFragment.planeDiscoveryController.hide()
-        arFragment.planeDiscoveryController.setInstructionView(null)
-    }
     private fun addNodeToScene(
         anchor: Anchor?,
         modelRenderable: ModelRenderable?
@@ -73,6 +68,11 @@ class MainActivity : AppCompatActivity() {
       }
     }
 
+    private fun eliminateDot() {
+        arFragment.arSceneView.planeRenderer.isVisible = false
+        arFragment.planeDiscoveryController.hide()
+        arFragment.planeDiscoveryController.setInstructionView(null)
+    }
 
 
 
