@@ -7,6 +7,31 @@ sealed class Models {
     abstract val height: Float
     abstract val rotationDegrees: Float
 
+    object Rumba2 : Models() {
+        override val degreesPerSecond: Float
+            get() = 10f
+        override val radius: Float
+            get() = 0.03f
+        override val height: Float
+            get() = 0.0f
+        override val rotationDegrees: Float
+            get() = 180f
+    }
+
+
+
+    object Rumba : Models() {
+        override val degreesPerSecond: Float
+            get() = 20f
+        override val radius: Float
+            get() = 0.3f
+        override val height: Float
+            get() = 0.0f
+        override val rotationDegrees: Float
+            get() = 180f
+    }
+
+
     object Fly : Models() {
         override val degreesPerSecond: Float
             get() = 20f

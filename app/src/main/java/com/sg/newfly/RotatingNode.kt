@@ -6,6 +6,7 @@ import com.google.ar.sceneform.Node
 import com.google.ar.sceneform.math.Quaternion
 import com.google.ar.sceneform.math.QuaternionEvaluator
 import com.google.ar.sceneform.math.Vector3
+import com.google.ar.sceneform.ux.TransformableNode
 
 class RotatingNode(
     private val degreesPerSecond: Float
@@ -24,6 +25,7 @@ class RotatingNode(
     }
 
     private fun startAnimation() {
+
         objectAnimator = objectAnimator ?: createObjectAnimator().apply {
             target = this@RotatingNode
             duration = (500 * 360 / degreesPerSecond).toLong()

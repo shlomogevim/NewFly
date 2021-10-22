@@ -1,24 +1,36 @@
 package com.sg.newfly
 
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.core.graphics.scaleMatrix
 import com.google.ar.core.Anchor
 import com.google.ar.sceneform.AnchorNode
 import com.google.ar.sceneform.Node
 import com.google.ar.sceneform.animation.ModelAnimator
+import com.google.ar.sceneform.assets.RenderableSource
 import com.google.ar.sceneform.math.Quaternion
 import com.google.ar.sceneform.math.Vector3
 import com.google.ar.sceneform.rendering.ModelRenderable
 import com.google.ar.sceneform.ux.ArFragment
+import com.google.ar.sceneform.ux.TransformableNode
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var arFragment: ArFragment
     private val nodes = mutableListOf<RotatingNode>()
-    private val model = Models.Bee
-    private val modelResourceId=R.raw.beedrill
+
+   /* private val model = Models.Bee
+    private val modelResourceId=R.raw.beedrill*/
+
+    /*private val model = Models.Rumba
+    private val modelResourceId=R.raw.rumba*/
+
+    private val model = Models.Rumba2
+    private val modelResourceId=R.raw.rumba2
+
     private var curCameraPosition=Vector3.zero()
 
 
@@ -51,17 +63,22 @@ class MainActivity : AppCompatActivity() {
     ) {
         val anchorNode=AnchorNode(anchor)
         val rotatingNode=RotatingNode(model.degreesPerSecond).apply {
-            setParent(anchorNode)
+
+             setParent(anchorNode)
         }
         Node().apply {
             renderable=modelRenderable
+
             setParent(rotatingNode)
             localPosition= Vector3(model.radius,model.height,0f)
             localRotation= Quaternion.eulerAngles(Vector3(0f,model.rotationDegrees,0f))
+           localScale=Vector3(0.05f,0.05f,0.05f)
         }
       arFragment.arSceneView.scene.addChild(anchorNode)
       nodes.add(rotatingNode)
-      val animationData=modelRenderable?.getAnimationData("Beedrill_Animation")
+     //val animationData=modelRenderable?.getAnimationData("Beedrill_Animation")
+     // val animationData=modelRenderable?.getAnimationData("mixamo.com")
+      val animationData=modelRenderable?.getAnimationData("Cinema_4D_Basis")
       ModelAnimator(animationData,modelRenderable).apply {
           repeatCount=ModelAnimator.INFINITE
           start()
@@ -73,6 +90,27 @@ class MainActivity : AppCompatActivity() {
         arFragment.planeDiscoveryController.hide()
         arFragment.planeDiscoveryController.setInstructionView(null)
     }
+
+
+   /* private fun spawnObject(anchor: Anchor, modelUri: Uri) {
+        val renderableSource = RenderableSource.builder()
+            .setSource(this, modelUri, RenderableSource.SourceType.GLB)
+            .setRecenterMode(RenderableSource.RecenterMode.ROOT)
+            //.setScale(0.002f)  //for the Bee
+            .setScale(0.02f)
+            .build()
+        ModelRenderable.builder()
+            .setSource(this, renderableSource)
+            .setRegistryId(modelUri)
+            .build()
+            .thenAccept {
+                addNodeToScene(anchor, it)
+            }.exceptionally {
+                Toast.makeText(this, "Somting go wrong: $it", Toast.LENGTH_LONG).show()
+                null
+            }
+
+    }*/
 
 
 

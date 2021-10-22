@@ -1,0 +1,676 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Cinema_4D_Basis',
+        },
+      ],
+      path: 'sampledata/model2/Rumba Dancing aus C4D R23.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Cinema_4D_Basis',
+        },
+      ],
+      path: 'sampledata/model2/Rumba Dancing aus C4D R23.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Scalp_High_polytailmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Scalp_High_polytail_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'High_polytailmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'High_polytail_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Ga_Skin_Bodymat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Ga_Skin_Body_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Std_Upper_Teethmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Std_Upper_Teeth_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Std_Lower_Teethmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Std_Lower_Teeth_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Std_Eye_Rmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Std_Eye_R_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Std_Cornea_Rmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Std_Cornea_R_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Std_Eye_Lmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Std_Eye_L_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Std_Cornea_Lmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Std_Cornea_L_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Bramat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Bra_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Boxersmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Boxers_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Jeansmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Jeans_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Plaid_Punk_Shirtmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Plaid_Punk_Shirt_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'High-Heelsmat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'High-Heels_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/model2/Rumba Dancing aus C4D R23.fbx',
+    name: 'Rumba Dancing aus C4D R23',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Boxers_diffuse.png',
+      name: 'Boxers_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Boxers_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Std_Cornea_R_diffuse.jpg',
+      name: 'Std_Cornea_R_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Std_Cornea_R_diffuse.jpg',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Jeans_diffuse.png',
+      name: 'Jeans_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Jeans_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Std_Upper_Teeth_diffuse.png',
+      name: 'Std_Upper_Teeth_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Std_Upper_Teeth_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Scalp_High_polytail_diffuse.png',
+      name: 'Scalp_High_polytail_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Scalp_High_polytail_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Scalp_High_polytail_specular.png',
+      name: 'Scalp_High_polytail_specular',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Scalp_High_polytail_specular.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Ga_Skin_Body_diffuse.png',
+      name: 'Ga_Skin_Body_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Ga_Skin_Body_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\High_polytail_diffuse.png',
+      name: 'High_polytail_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\High_polytail_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\High-Heels_diffuse.png',
+      name: 'High-Heels_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\High-Heels_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\High_polytail_specular.png',
+      name: 'High_polytail_specular',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\High_polytail_specular.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Std_Eye_R_diffuse.jpg',
+      name: 'Std_Eye_R_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Std_Eye_R_diffuse.jpg',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Std_Lower_Teeth_diffuse.png',
+      name: 'Std_Lower_Teeth_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Std_Lower_Teeth_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Std_Eye_L_diffuse.jpg',
+      name: 'Std_Eye_L_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Std_Eye_L_diffuse.jpg',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Std_Cornea_L_diffuse.jpg',
+      name: 'Std_Cornea_L_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Std_Cornea_L_diffuse.jpg',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Bra_diffuse.png',
+      name: 'Bra_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Bra_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Bra_specular.png',
+      name: 'Bra_specular',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Bra_specular.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Boxers_specular.png',
+      name: 'Boxers_specular',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Boxers_specular.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Jeans_specular.png',
+      name: 'Jeans_specular',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Jeans_specular.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Plaid_Punk_Shirt_diffuse.png',
+      name: 'Plaid_Punk_Shirt_diffuse',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Plaid_Punk_Shirt_diffuse.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\Plaid_Punk_Shirt_specular.png',
+      name: 'Plaid_Punk_Shirt_specular',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\Plaid_Punk_Shirt_specular.png',
+    },
+    {
+      file: 'sampledata/model2\\Rumba Dancing aus C4D R23.fbm\\High-Heels_specular.png',
+      name: 'High-Heels_specular',
+      pipeline_name: 'Rumba Dancing aus C4D R23.fbm\\High-Heels_specular.png',
+    },
+  ],
+
+  version: '0.54:2',
+}
